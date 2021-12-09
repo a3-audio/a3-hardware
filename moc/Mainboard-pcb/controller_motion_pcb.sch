@@ -13,1131 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L controller_motion_pcb-rescue:74HC4051-74xx mux1
-U 1 1 5F9F0790
-P 8700 1900
-F 0 "mux1" H 8750 2581 50  0000 C CNN
-F 1 "74HC4051" H 8750 2490 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8700 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 8700 1500 50  0001 C CNN
-	1    8700 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR013
-U 1 1 5FA00E72
-P 4750 4150
-F 0 "#PWR013" H 4750 3900 50  0001 C CNN
-F 1 "GND" V 4755 4022 50  0000 R CNN
-F 2 "" H 4750 4150 50  0001 C CNN
-F 3 "" H 4750 4150 50  0001 C CNN
-	1    4750 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR011
-U 1 1 5FA0284C
-P 2550 4050
-F 0 "#PWR011" H 2550 3800 50  0001 C CNN
-F 1 "GND" V 2555 3922 50  0000 R CNN
-F 2 "" H 2550 4050 50  0001 C CNN
-F 3 "" H 2550 4050 50  0001 C CNN
-	1    2550 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR014
-U 1 1 5FA0407C
-P 4750 4250
-F 0 "#PWR014" H 4750 4100 50  0001 C CNN
-F 1 "+3.3V" V 4765 4378 50  0000 L CNN
-F 2 "" H 4750 4250 50  0001 C CNN
-F 3 "" H 4750 4250 50  0001 C CNN
-	1    4750 4250
-	0    1    1    0   
-$EndComp
-Text GLabel 4750 4350 2    50   Input ~ 0
-s0
-Text GLabel 4750 4450 2    50   Input ~ 0
-s1
-Text GLabel 4750 4550 2    50   Input ~ 0
-s2
-Text GLabel 8300 1800 0    50   Input ~ 0
-s0
-Text GLabel 8300 1900 0    50   Input ~ 0
-s1
-Text GLabel 8300 2000 0    50   Input ~ 0
-s2
-Wire Wire Line
-	8400 1800 8300 1800
-Wire Wire Line
-	8400 1900 8300 1900
-Wire Wire Line
-	8400 2000 8300 2000
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR017
-U 1 1 5FA0A0A6
-P 8700 2650
-F 0 "#PWR017" H 8700 2400 50  0001 C CNN
-F 1 "GND" H 8705 2477 50  0000 C CNN
-F 2 "" H 8700 2650 50  0001 C CNN
-F 3 "" H 8700 2650 50  0001 C CNN
-	1    8700 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 2500 8700 2550
-Wire Wire Line
-	8400 2200 8400 2550
-Wire Wire Line
-	8400 2550 8700 2550
-Connection ~ 8700 2550
-Wire Wire Line
-	8700 2550 8700 2650
-Wire Wire Line
-	8800 2500 8800 2550
-Wire Wire Line
-	8800 2550 8700 2550
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR019
-U 1 1 5FA10AD3
-P 8800 1400
-F 0 "#PWR019" H 8800 1250 50  0001 C CNN
-F 1 "+3.3V" V 8815 1528 50  0000 L CNN
-F 2 "" H 8800 1400 50  0001 C CNN
-F 3 "" H 8800 1400 50  0001 C CNN
-	1    8800 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 1400 8800 1400
-Text GLabel 4750 4650 2    50   Input ~ 0
-mux_btnMx1
-Text GLabel 4750 4750 2    50   Input ~ 0
-mux_btnMx2
-Text GLabel 8300 1600 0    50   Input ~ 0
-mux_btnMx1
-Wire Wire Line
-	8400 1600 8300 1600
-Wire Wire Line
-	8350 3350 8250 3350
-Text GLabel 8250 3350 0    50   Input ~ 0
-mux_btnMx2
-Text GLabel 8250 3550 0    50   Input ~ 0
-s0
-Text GLabel 8250 3650 0    50   Input ~ 0
-s1
-Text GLabel 8250 3750 0    50   Input ~ 0
-s2
-Wire Wire Line
-	8350 3550 8250 3550
-Wire Wire Line
-	8350 3650 8250 3650
-Wire Wire Line
-	8350 3750 8250 3750
-Wire Wire Line
-	8350 3950 8350 4300
-Wire Wire Line
-	8750 4300 8650 4300
-Wire Wire Line
-	8750 4250 8750 4300
-Wire Wire Line
-	8650 4300 8650 4400
-Connection ~ 8650 4300
-Wire Wire Line
-	8350 4300 8650 4300
-Wire Wire Line
-	8650 4250 8650 4300
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR016
-U 1 1 5FA0AF25
-P 8650 4400
-F 0 "#PWR016" H 8650 4150 50  0001 C CNN
-F 1 "GND" H 8655 4227 50  0000 C CNN
-F 2 "" H 8650 4400 50  0001 C CNN
-F 3 "" H 8650 4400 50  0001 C CNN
-	1    8650 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:74HC4051-74xx mux2
-U 1 1 5F9F26DA
-P 8650 3650
-F 0 "mux2" H 8700 4331 50  0000 C CNN
-F 1 "74HC4051" H 8700 4240 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8650 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 8650 3250 50  0001 C CNN
-	1    8650 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8650 3150 8750 3150
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR018
-U 1 1 5FA0CEE3
-P 8750 3150
-F 0 "#PWR018" H 8750 3000 50  0001 C CNN
-F 1 "+3.3V" V 8765 3278 50  0000 L CNN
-F 2 "" H 8750 3150 50  0001 C CNN
-F 3 "" H 8750 3150 50  0001 C CNN
-	1    8750 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9100 1600 9800 1600
-Wire Wire Line
-	9800 1600 9800 2350
-Wire Wire Line
-	9100 1700 9750 1700
-Wire Wire Line
-	9750 1700 9750 2450
-Wire Wire Line
-	9750 2450 9800 2450
-Wire Wire Line
-	9100 1800 9700 1800
-Wire Wire Line
-	9700 1800 9700 2550
-Wire Wire Line
-	9700 2550 9800 2550
-Wire Wire Line
-	9100 1900 9650 1900
-Wire Wire Line
-	9650 1900 9650 2650
-Wire Wire Line
-	9650 2650 9800 2650
-Wire Wire Line
-	9100 2000 9600 2000
-Wire Wire Line
-	9600 2000 9600 2750
-Wire Wire Line
-	9600 2750 9800 2750
-Wire Wire Line
-	9100 2100 9550 2100
-Wire Wire Line
-	9550 2100 9550 2850
-Wire Wire Line
-	9550 2850 9800 2850
-Wire Wire Line
-	9100 2200 9500 2200
-Wire Wire Line
-	9500 2200 9500 2950
-Wire Wire Line
-	9500 2950 9800 2950
-Wire Wire Line
-	9100 2300 9450 2300
-Wire Wire Line
-	9450 2300 9450 3050
-Wire Wire Line
-	9450 3050 9800 3050
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR020
-U 1 1 5FA807FC
-P 10300 2350
-F 0 "#PWR020" H 10300 2200 50  0001 C CNN
-F 1 "+3.3V" V 10315 2478 50  0000 L CNN
-F 2 "" H 10300 2350 50  0001 C CNN
-F 3 "" H 10300 2350 50  0001 C CNN
-	1    10300 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR021
-U 1 1 5FA81267
-P 10300 2450
-F 0 "#PWR021" H 10300 2200 50  0001 C CNN
-F 1 "GND" V 10305 2322 50  0000 R CNN
-F 2 "" H 10300 2450 50  0001 C CNN
-F 3 "" H 10300 2450 50  0001 C CNN
-	1    10300 2450
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4750 4850 2    50   Input ~ 0
-mux_porty
-Wire Wire Line
-	4400 2050 4300 2050
-Text GLabel 4300 2050 0    50   Input ~ 0
-mux_porty
-Text GLabel 4300 2250 0    50   Input ~ 0
-s0
-Text GLabel 4300 2350 0    50   Input ~ 0
-s1
-Text GLabel 4300 2450 0    50   Input ~ 0
-s2
-Wire Wire Line
-	4400 2250 4300 2250
-Wire Wire Line
-	4400 2350 4300 2350
-Wire Wire Line
-	4400 2450 4300 2450
-Wire Wire Line
-	4400 2650 4400 3000
-Wire Wire Line
-	4800 3000 4700 3000
-Wire Wire Line
-	4800 2950 4800 3000
-Connection ~ 4700 3000
-Wire Wire Line
-	4400 3000 4700 3000
-Wire Wire Line
-	4700 2950 4700 3000
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR022
-U 1 1 5FA88A46
-P 4700 3100
-F 0 "#PWR022" H 4700 2850 50  0001 C CNN
-F 1 "GND" H 4705 2927 50  0000 C CNN
-F 2 "" H 4700 3100 50  0001 C CNN
-F 3 "" H 4700 3100 50  0001 C CNN
-	1    4700 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:74HC4051-74xx mux3
-U 1 1 5FA88A4C
-P 4700 2350
-F 0 "mux3" H 4750 3031 50  0000 C CNN
-F 1 "74HC4051" H 4750 2940 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 4700 1950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 4700 1950 50  0001 C CNN
-	1    4700 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 1850 4800 1850
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR023
-U 1 1 5FA88A53
-P 4800 1850
-F 0 "#PWR023" H 4800 1700 50  0001 C CNN
-F 1 "+3.3V" V 4815 1978 50  0000 L CNN
-F 2 "" H 4800 1850 50  0001 C CNN
-F 3 "" H 4800 1850 50  0001 C CNN
-	1    4800 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P0
-U 1 1 5FA92987
-P 6300 1000
-F 0 "P0" H 6380 1042 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 951 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 1000 50  0001 C CNN
-F 3 "~" H 6300 1000 50  0001 C CNN
-	1    6300 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR025
-U 1 1 5FA941C0
-P 6100 1100
-F 0 "#PWR025" H 6100 950 50  0001 C CNN
-F 1 "+3.3V" V 6115 1228 50  0000 L CNN
-F 2 "" H 6100 1100 50  0001 C CNN
-F 3 "" H 6100 1100 50  0001 C CNN
-	1    6100 1100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR024
-U 1 1 5FA95118
-P 6100 1000
-F 0 "#PWR024" H 6100 750 50  0001 C CNN
-F 1 "GND" V 6105 872 50  0000 R CNN
-F 2 "" H 6100 1000 50  0001 C CNN
-F 3 "" H 6100 1000 50  0001 C CNN
-	1    6100 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P1
-U 1 1 5FA97CFC
-P 6300 1400
-F 0 "P1" H 6380 1442 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 1351 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 1400 50  0001 C CNN
-F 3 "~" H 6300 1400 50  0001 C CNN
-	1    6300 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR027
-U 1 1 5FA97D02
-P 6100 1500
-F 0 "#PWR027" H 6100 1350 50  0001 C CNN
-F 1 "+3.3V" V 6115 1628 50  0000 L CNN
-F 2 "" H 6100 1500 50  0001 C CNN
-F 3 "" H 6100 1500 50  0001 C CNN
-	1    6100 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR026
-U 1 1 5FA97D08
-P 6100 1400
-F 0 "#PWR026" H 6100 1150 50  0001 C CNN
-F 1 "GND" V 6105 1272 50  0000 R CNN
-F 2 "" H 6100 1400 50  0001 C CNN
-F 3 "" H 6100 1400 50  0001 C CNN
-	1    6100 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P2
-U 1 1 5FA9AF59
-P 6300 1800
-F 0 "P2" H 6380 1842 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 1751 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 1800 50  0001 C CNN
-F 3 "~" H 6300 1800 50  0001 C CNN
-	1    6300 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR029
-U 1 1 5FA9AF5F
-P 6100 1900
-F 0 "#PWR029" H 6100 1750 50  0001 C CNN
-F 1 "+3.3V" V 6115 2028 50  0000 L CNN
-F 2 "" H 6100 1900 50  0001 C CNN
-F 3 "" H 6100 1900 50  0001 C CNN
-	1    6100 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR028
-U 1 1 5FA9AF65
-P 6100 1800
-F 0 "#PWR028" H 6100 1550 50  0001 C CNN
-F 1 "GND" V 6105 1672 50  0000 R CNN
-F 2 "" H 6100 1800 50  0001 C CNN
-F 3 "" H 6100 1800 50  0001 C CNN
-	1    6100 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P3
-U 1 1 5FA9E790
-P 6300 2200
-F 0 "P3" H 6380 2242 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 2151 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 2200 50  0001 C CNN
-F 3 "~" H 6300 2200 50  0001 C CNN
-	1    6300 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR031
-U 1 1 5FA9E796
-P 6100 2300
-F 0 "#PWR031" H 6100 2150 50  0001 C CNN
-F 1 "+3.3V" V 6115 2428 50  0000 L CNN
-F 2 "" H 6100 2300 50  0001 C CNN
-F 3 "" H 6100 2300 50  0001 C CNN
-	1    6100 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR030
-U 1 1 5FA9E79C
-P 6100 2200
-F 0 "#PWR030" H 6100 1950 50  0001 C CNN
-F 1 "GND" V 6105 2072 50  0000 R CNN
-F 2 "" H 6100 2200 50  0001 C CNN
-F 3 "" H 6100 2200 50  0001 C CNN
-	1    6100 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P4
-U 1 1 5FAA23D4
-P 6300 2600
-F 0 "P4" H 6380 2642 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 2551 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 2600 50  0001 C CNN
-F 3 "~" H 6300 2600 50  0001 C CNN
-	1    6300 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR033
-U 1 1 5FAA23DA
-P 6100 2700
-F 0 "#PWR033" H 6100 2550 50  0001 C CNN
-F 1 "+3.3V" V 6115 2828 50  0000 L CNN
-F 2 "" H 6100 2700 50  0001 C CNN
-F 3 "" H 6100 2700 50  0001 C CNN
-	1    6100 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P5
-U 1 1 5FAA5735
-P 6300 3000
-F 0 "P5" H 6380 3042 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 2951 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 3000 50  0001 C CNN
-F 3 "~" H 6300 3000 50  0001 C CNN
-	1    6300 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR035
-U 1 1 5FAA573B
-P 6100 3100
-F 0 "#PWR035" H 6100 2950 50  0001 C CNN
-F 1 "+3.3V" V 6115 3228 50  0000 L CNN
-F 2 "" H 6100 3100 50  0001 C CNN
-F 3 "" H 6100 3100 50  0001 C CNN
-	1    6100 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR034
-U 1 1 5FAA5741
-P 6100 3000
-F 0 "#PWR034" H 6100 2750 50  0001 C CNN
-F 1 "GND" V 6105 2872 50  0000 R CNN
-F 2 "" H 6100 3000 50  0001 C CNN
-F 3 "" H 6100 3000 50  0001 C CNN
-	1    6100 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P6
-U 1 1 5FAA8EEA
-P 6300 3400
-F 0 "P6" H 6380 3442 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 3351 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 3400 50  0001 C CNN
-F 3 "~" H 6300 3400 50  0001 C CNN
-	1    6300 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR037
-U 1 1 5FAA8EF0
-P 6100 3500
-F 0 "#PWR037" H 6100 3350 50  0001 C CNN
-F 1 "+3.3V" V 6115 3628 50  0000 L CNN
-F 2 "" H 6100 3500 50  0001 C CNN
-F 3 "" H 6100 3500 50  0001 C CNN
-	1    6100 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR036
-U 1 1 5FAA8EF6
-P 6100 3400
-F 0 "#PWR036" H 6100 3150 50  0001 C CNN
-F 1 "GND" V 6105 3272 50  0000 R CNN
-F 2 "" H 6100 3400 50  0001 C CNN
-F 3 "" H 6100 3400 50  0001 C CNN
-	1    6100 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x03-Connector_Generic P7
-U 1 1 5FAACAED
-P 6300 3800
-F 0 "P7" H 6380 3842 50  0000 L CNN
-F 1 "Conn_01x03" H 6380 3751 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 6300 3800 50  0001 C CNN
-F 3 "~" H 6300 3800 50  0001 C CNN
-	1    6300 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR039
-U 1 1 5FAACAF3
-P 6100 3900
-F 0 "#PWR039" H 6100 3750 50  0001 C CNN
-F 1 "+3.3V" V 6115 4028 50  0000 L CNN
-F 2 "" H 6100 3900 50  0001 C CNN
-F 3 "" H 6100 3900 50  0001 C CNN
-	1    6100 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR038
-U 1 1 5FAACAF9
-P 6100 3800
-F 0 "#PWR038" H 6100 3550 50  0001 C CNN
-F 1 "GND" V 6105 3672 50  0000 R CNN
-F 2 "" H 6100 3800 50  0001 C CNN
-F 3 "" H 6100 3800 50  0001 C CNN
-	1    6100 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5100 2050 5200 2050
-Wire Wire Line
-	5200 2050 5200 900 
-Wire Wire Line
-	5200 900  6100 900 
-Wire Wire Line
-	5100 2150 5250 2150
-Wire Wire Line
-	5250 2150 5250 1300
-Wire Wire Line
-	5250 1300 6100 1300
-Wire Wire Line
-	5100 2250 5300 2250
-Wire Wire Line
-	5300 2250 5300 1700
-Wire Wire Line
-	5300 1700 6100 1700
-Wire Wire Line
-	5100 2350 5350 2350
-Wire Wire Line
-	5350 2350 5350 2100
-Wire Wire Line
-	5350 2100 6100 2100
-Wire Wire Line
-	5100 2450 5350 2450
-Wire Wire Line
-	5350 2450 5350 2500
-Wire Wire Line
-	5350 2500 6100 2500
-Wire Wire Line
-	5100 2550 5300 2550
-Wire Wire Line
-	5300 2550 5300 2900
-Wire Wire Line
-	5300 2900 6100 2900
-Wire Wire Line
-	5100 2650 5250 2650
-Wire Wire Line
-	5250 2650 5250 3300
-Wire Wire Line
-	5250 3300 6100 3300
-Wire Wire Line
-	5100 2750 5200 2750
-Wire Wire Line
-	5200 2750 5200 3700
-Wire Wire Line
-	5200 3700 6100 3700
-$Comp
-L controller_motion_pcb-rescue:Conn_01x05-Connector_Generic ENC0
-U 1 1 5FAF935B
-P 1100 1350
-F 0 "ENC0" H 1018 925 50  0000 C CNN
-F 1 "Conn_01x05" H 1018 1016 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1100 1350 50  0001 C CNN
-F 3 "~" H 1100 1350 50  0001 C CNN
-	1    1100 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR02
-U 1 1 5FAFBF5E
-P 1300 1550
-F 0 "#PWR02" H 1300 1300 50  0001 C CNN
-F 1 "GND" V 1305 1422 50  0000 R CNN
-F 2 "" H 1300 1550 50  0001 C CNN
-F 3 "" H 1300 1550 50  0001 C CNN
-	1    1300 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR01
-U 1 1 5FAFCD31
-P 1300 1450
-F 0 "#PWR01" H 1300 1300 50  0001 C CNN
-F 1 "+3.3V" V 1315 1578 50  0000 L CNN
-F 2 "" H 1300 1450 50  0001 C CNN
-F 3 "" H 1300 1450 50  0001 C CNN
-	1    1300 1450
-	0    1    1    0   
-$EndComp
-Text GLabel 1300 1150 2    50   Input ~ 0
-rEnc0_CLK
-Text GLabel 1300 1250 2    50   Input ~ 0
-rEnc0_DT
-$Comp
-L controller_motion_pcb-rescue:Conn_01x05-Connector_Generic ENC1
-U 1 1 5FB04C77
-P 1100 2100
-F 0 "ENC1" H 1018 1675 50  0000 C CNN
-F 1 "Conn_01x05" H 1018 1766 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1100 2100 50  0001 C CNN
-F 3 "~" H 1100 2100 50  0001 C CNN
-	1    1100 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR04
-U 1 1 5FB04C7D
-P 1300 2300
-F 0 "#PWR04" H 1300 2050 50  0001 C CNN
-F 1 "GND" V 1305 2172 50  0000 R CNN
-F 2 "" H 1300 2300 50  0001 C CNN
-F 3 "" H 1300 2300 50  0001 C CNN
-	1    1300 2300
-	0    -1   -1   0   
-$EndComp
-Text GLabel 1300 1900 2    50   Input ~ 0
-rEnc1_CLK
-Text GLabel 1300 2000 2    50   Input ~ 0
-rEnc1_DT
-$Comp
-L controller_motion_pcb-rescue:Conn_01x05-Connector_Generic ENC2
-U 1 1 5FB0983C
-P 1100 2850
-F 0 "ENC2" H 1018 2425 50  0000 C CNN
-F 1 "Conn_01x05" H 1018 2516 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1100 2850 50  0001 C CNN
-F 3 "~" H 1100 2850 50  0001 C CNN
-	1    1100 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR06
-U 1 1 5FB09842
-P 1300 3050
-F 0 "#PWR06" H 1300 2800 50  0001 C CNN
-F 1 "GND" V 1305 2922 50  0000 R CNN
-F 2 "" H 1300 3050 50  0001 C CNN
-F 3 "" H 1300 3050 50  0001 C CNN
-	1    1300 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR05
-U 1 1 5FB09848
-P 1300 2950
-F 0 "#PWR05" H 1300 2800 50  0001 C CNN
-F 1 "+3.3V" V 1315 3078 50  0000 L CNN
-F 2 "" H 1300 2950 50  0001 C CNN
-F 3 "" H 1300 2950 50  0001 C CNN
-	1    1300 2950
-	0    1    1    0   
-$EndComp
-Text GLabel 1300 2650 2    50   Input ~ 0
-rEnc2_CLK
-Text GLabel 1300 2750 2    50   Input ~ 0
-rEnc2_DT
-$Comp
-L controller_motion_pcb-rescue:Conn_01x05-Connector_Generic ENC3
-U 1 1 5FB10709
-P 1100 3600
-F 0 "ENC3" H 1018 3175 50  0000 C CNN
-F 1 "Conn_01x05" H 1018 3266 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1100 3600 50  0001 C CNN
-F 3 "~" H 1100 3600 50  0001 C CNN
-	1    1100 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR08
-U 1 1 5FB1070F
-P 1300 3800
-F 0 "#PWR08" H 1300 3550 50  0001 C CNN
-F 1 "GND" V 1305 3672 50  0000 R CNN
-F 2 "" H 1300 3800 50  0001 C CNN
-F 3 "" H 1300 3800 50  0001 C CNN
-	1    1300 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR07
-U 1 1 5FB10715
-P 1300 3700
-F 0 "#PWR07" H 1300 3550 50  0001 C CNN
-F 1 "+3.3V" V 1315 3828 50  0000 L CNN
-F 2 "" H 1300 3700 50  0001 C CNN
-F 3 "" H 1300 3700 50  0001 C CNN
-	1    1300 3700
-	0    1    1    0   
-$EndComp
-Text GLabel 1300 3400 2    50   Input ~ 0
-rEnc3_CLK
-Text GLabel 1300 3500 2    50   Input ~ 0
-rEnc3_DT
-Text GLabel 2550 4250 0    50   Input ~ 0
-rEnc0_CLK
-Text GLabel 2550 4150 0    50   Input ~ 0
-rEnc0_DT
-Text GLabel 2550 4450 0    50   Input ~ 0
-rEnc1_CLK
-Text GLabel 2550 4350 0    50   Input ~ 0
-rEnc1_DT
-Text GLabel 2550 4650 0    50   Input ~ 0
-rEnc2_CLK
-Text GLabel 2550 4550 0    50   Input ~ 0
-rEnc2_DT
-Text GLabel 2550 4850 0    50   Input ~ 0
-rEnc3_CLK
-Text GLabel 2550 4750 0    50   Input ~ 0
-rEnc3_DT
-Wire Wire Line
-	2800 2050 2900 2050
-Text GLabel 2900 2050 2    50   Input ~ 0
-mux_btn_rEnc
-Text GLabel 2900 2250 2    50   Input ~ 0
-s0
-Text GLabel 2900 2350 2    50   Input ~ 0
-s1
-Text GLabel 2900 2450 2    50   Input ~ 0
-s2
-Wire Wire Line
-	2800 2250 2900 2250
-Wire Wire Line
-	2800 2350 2900 2350
-Wire Wire Line
-	2800 2450 2900 2450
-Wire Wire Line
-	2800 2650 2800 3000
-Wire Wire Line
-	2400 3000 2500 3000
-Wire Wire Line
-	2400 2950 2400 3000
-Wire Wire Line
-	2500 3000 2500 3100
-Connection ~ 2500 3000
-Wire Wire Line
-	2800 3000 2500 3000
-Wire Wire Line
-	2500 2950 2500 3000
-$Comp
-L controller_motion_pcb-rescue:74HC4051-74xx mux4
-U 1 1 5FB2033E
-P 2500 2350
-F 0 "mux4" H 2550 3031 50  0000 C CNN
-F 1 "74HC4051" H 2550 2940 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2500 1950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 2500 1950 50  0001 C CNN
-	1    2500 2350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 1850 2400 1850
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR09
-U 1 1 5FB20345
-P 2400 1850
-F 0 "#PWR09" H 2400 1700 50  0001 C CNN
-F 1 "+3.3V" V 2415 1978 50  0000 L CNN
-F 2 "" H 2400 1850 50  0001 C CNN
-F 3 "" H 2400 1850 50  0001 C CNN
-	1    2400 1850
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1300 1350 2050 1350
-Wire Wire Line
-	2050 1350 2050 2050
-Wire Wire Line
-	2050 2050 2100 2050
-Wire Wire Line
-	1300 2100 1800 2100
-Wire Wire Line
-	1800 2100 1800 2150
-Wire Wire Line
-	1800 2150 2100 2150
-Wire Wire Line
-	1300 2850 1850 2850
-Wire Wire Line
-	1850 2850 1850 2250
-Wire Wire Line
-	1850 2250 2100 2250
-Wire Wire Line
-	1300 3600 1950 3600
-Wire Wire Line
-	1950 3600 1950 2350
-Wire Wire Line
-	1950 2350 2100 2350
-Text GLabel 2550 4950 0    50   Input ~ 0
-mux_btn_rEnc
-NoConn ~ 4750 6600
-NoConn ~ 4750 6700
-NoConn ~ 4750 6800
-NoConn ~ 4750 6900
-NoConn ~ 4750 7000
-NoConn ~ 4750 7100
-NoConn ~ 3950 7500
-NoConn ~ 3800 7500
-NoConn ~ 3650 7500
-NoConn ~ 3500 7500
-NoConn ~ 3350 7500
-NoConn ~ 2550 7200
-NoConn ~ 2550 7100
-NoConn ~ 2550 7000
-NoConn ~ 2550 6900
-NoConn ~ 2550 6800
-NoConn ~ 2550 6650
-NoConn ~ 2550 6550
-NoConn ~ 4750 3900
-Wire Wire Line
-	4700 3100 4700 3000
-NoConn ~ 2100 2450
-NoConn ~ 2100 2550
-NoConn ~ 2100 2650
-NoConn ~ 2100 2750
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR032
-U 1 1 5FCA166B
-P 6100 2600
-F 0 "#PWR032" H 6100 2350 50  0001 C CNN
-F 1 "GND" V 6105 2472 50  0000 R CNN
-F 2 "" H 6100 2600 50  0001 C CNN
-F 3 "" H 6100 2600 50  0001 C CNN
-	1    6100 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR0101
-U 1 1 5FD6C0D7
-P 1300 2200
-F 0 "#PWR0101" H 1300 2050 50  0001 C CNN
-F 1 "+3.3V" V 1315 2328 50  0000 L CNN
-F 2 "" H 1300 2200 50  0001 C CNN
-F 3 "" H 1300 2200 50  0001 C CNN
-	1    1300 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR0102
-U 1 1 5FD6C942
-P 2500 3100
-F 0 "#PWR0102" H 2500 2850 50  0001 C CNN
-F 1 "GND" V 2505 2972 50  0000 R CNN
-F 2 "" H 2500 3100 50  0001 C CNN
-F 3 "" H 2500 3100 50  0001 C CNN
-	1    2500 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:PWR_FLAG-power #FLG0101
-U 1 1 5FD72526
-P 8100 5400
-F 0 "#FLG0101" H 8100 5475 50  0001 C CNN
-F 1 "PWR_FLAG" H 8100 5573 50  0000 C CNN
-F 2 "" H 8100 5400 50  0001 C CNN
-F 3 "~" H 8100 5400 50  0001 C CNN
-	1    8100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:PWR_FLAG-power #FLG0102
-U 1 1 5FD72E02
-P 8600 5400
-F 0 "#FLG0102" H 8600 5475 50  0001 C CNN
-F 1 "PWR_FLAG" H 8600 5573 50  0000 C CNN
-F 2 "" H 8600 5400 50  0001 C CNN
-F 3 "~" H 8600 5400 50  0001 C CNN
-	1    8600 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR0103
-U 1 1 5FD73396
-P 8100 5400
-F 0 "#PWR0103" H 8100 5150 50  0001 C CNN
-F 1 "GND" V 8105 5272 50  0000 R CNN
-F 2 "" H 8100 5400 50  0001 C CNN
-F 3 "" H 8100 5400 50  0001 C CNN
-	1    8100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR0104
-U 1 1 5FD73CDD
-P 8600 5400
-F 0 "#PWR0104" H 8600 5250 50  0001 C CNN
-F 1 "+3.3V" V 8615 5528 50  0000 L CNN
-F 2 "" H 8600 5400 50  0001 C CNN
-F 3 "" H 8600 5400 50  0001 C CNN
-	1    8600 5400
-	-1   0    0    1   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_02x10_Counter_Clockwise-Connector_Generic BtnMx1
-U 1 1 5FA68169
-P 10000 2750
-F 0 "BtnMx1" H 10050 3367 50  0000 C CNN
-F 1 "Conn_02x09_Counter_Clockwise" H 10050 3276 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 10000 2750 50  0001 C CNN
-F 3 "~" H 10000 2750 50  0001 C CNN
-	1    10000 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 3350 9450 3350
-Wire Wire Line
-	9450 3350 9450 3150
-Wire Wire Line
-	9450 3150 9800 3150
-Wire Wire Line
-	9050 3450 9500 3450
-Wire Wire Line
-	9500 3450 9500 3250
-Wire Wire Line
-	9500 3250 9800 3250
-Wire Wire Line
-	9050 3550 10300 3550
-Wire Wire Line
-	10300 3550 10300 3250
-Wire Wire Line
-	9050 3650 10350 3650
-Wire Wire Line
-	10350 3650 10350 3150
-Wire Wire Line
-	10350 3150 10300 3150
-Wire Wire Line
-	9050 3750 10400 3750
-Wire Wire Line
-	10400 3750 10400 3050
-Wire Wire Line
-	10400 3050 10300 3050
-Wire Wire Line
-	9050 3850 10450 3850
-Wire Wire Line
-	10450 3850 10450 2950
-Wire Wire Line
-	10450 2950 10300 2950
-Wire Wire Line
-	9050 3950 10500 3950
-Wire Wire Line
-	10500 3950 10500 2850
-Wire Wire Line
-	10500 2850 10300 2850
-Wire Wire Line
-	9050 4050 10550 4050
-Wire Wire Line
-	10550 4050 10550 2750
-Wire Wire Line
-	10550 2750 10300 2750
-NoConn ~ 10300 2650
-NoConn ~ 10300 2550
-$Comp
-L controller_motion_pcb-rescue:Conn_01x14_Male-Connector J1
-U 1 1 5FB3A30C
-P 2250 5650
-F 0 "J1" H 2150 6100 50  0000 C CNN
-F 1 "Conn_01x14_Male" V 2150 5700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 2250 5650 50  0001 C CNN
-F 3 "~" H 2250 5650 50  0001 C CNN
-	1    2250 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Conn_01x15_Male-Connector J3
-U 1 1 5FB41728
-P 5050 5650
-F 0 "J3" H 5000 5250 50  0000 R CNN
-F 1 "Conn_01x15_Male" V 4950 6000 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 5050 5650 50  0001 C CNN
-F 3 "~" H 5050 5650 50  0001 C CNN
-	1    5050 5650
-	-1   0    0    1   
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:Teensy4.1-teensy CTR1
-U 1 1 5F9F4040
-P 3650 6200
-F 0 "CTR1" H 3650 8765 50  0000 C CNN
-F 1 "Teensy4.1" H 3650 8674 50  0000 C CNN
-F 2 "teensy:Teensy41" H 3250 6600 50  0001 C CNN
-F 3 "" H 3250 6600 50  0001 C CNN
-	1    3650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L controller_motion_pcb-rescue:+3.3V-power #PWR03
-U 1 1 5FC160DB
-P 2000 5400
-F 0 "#PWR03" H 2000 5250 50  0001 C CNN
-F 1 "+3.3V" V 2015 5528 50  0000 L CNN
-F 2 "" H 2000 5400 50  0001 C CNN
-F 3 "" H 2000 5400 50  0001 C CNN
-	1    2000 5400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2450 5050 2550 5050
-Wire Wire Line
-	2450 5150 2550 5150
-Wire Wire Line
-	2450 5250 2550 5250
-Wire Wire Line
-	2450 5350 2550 5350
-Wire Wire Line
-	2450 5450 2500 5450
-Wire Wire Line
-	2450 5550 2550 5550
-Wire Wire Line
-	2450 5650 2550 5650
-Wire Wire Line
-	2450 5750 2550 5750
-Wire Wire Line
-	2450 5850 2550 5850
-Wire Wire Line
-	2450 5950 2550 5950
-Wire Wire Line
-	2450 6050 2550 6050
-Wire Wire Line
-	2450 6150 2550 6150
-Wire Wire Line
-	2450 6250 2550 6250
-Wire Wire Line
-	2450 6350 2550 6350
-Wire Wire Line
-	2000 5400 2500 5400
-Wire Wire Line
-	2500 5400 2500 5450
-Connection ~ 2500 5450
-Wire Wire Line
-	2500 5450 2550 5450
-Wire Wire Line
-	4750 4950 4850 4950
-Wire Wire Line
-	4750 5050 4850 5050
-Wire Wire Line
-	4750 5150 4850 5150
-Wire Wire Line
-	4750 5250 4850 5250
-Wire Wire Line
-	4750 5350 4850 5350
-Wire Wire Line
-	4750 5450 4800 5450
-Wire Wire Line
-	4750 5550 4850 5550
-Wire Wire Line
-	4750 5650 4850 5650
-Wire Wire Line
-	4750 5750 4850 5750
-Wire Wire Line
-	4750 5850 4850 5850
-Wire Wire Line
-	4750 5950 4850 5950
-Wire Wire Line
-	4750 6050 4850 6050
-Wire Wire Line
-	4750 6150 4850 6150
-Wire Wire Line
-	4750 6250 4850 6250
-Wire Wire Line
-	4750 6350 4850 6350
-$Comp
-L controller_motion_pcb-rescue:GND-power #PWR010
-U 1 1 5FD151E1
-P 5250 5400
-F 0 "#PWR010" H 5250 5150 50  0001 C CNN
-F 1 "GND" V 5255 5272 50  0000 R CNN
-F 2 "" H 5250 5400 50  0001 C CNN
-F 3 "" H 5250 5400 50  0001 C CNN
-	1    5250 5400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5250 5400 4800 5400
-Wire Wire Line
-	4800 5400 4800 5450
-Connection ~ 4800 5450
-Wire Wire Line
-	4800 5450 4850 5450
-NoConn ~ 4750 4050
 $Bitmap
 Pos 7900 6750
 Scale 2.000000
@@ -1322,4 +197,1089 @@ B6 6E B3 B0 B0 FC 35 E9 BD 0F 87 32 0D 61 61 61 61 61 80 9D 86 B0 B0 B0 48 07 6B
 E2 FF 01 E5 95 A4 88 29 16 25 65 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 619AAD0D
+P 1100 4500
+F 0 "J1" H 1018 3975 50  0000 C CNN
+F 1 "ICSP INTERFACE" H 1018 4066 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1100 4500 50  0001 C CNN
+F 3 "~" H 1100 4500 50  0001 C CNN
+	1    1100 4500
+	-1   0    0    1   
+$EndComp
+Text GLabel 1300 4600 2    50   Input ~ 0
+SCK
+Text GLabel 1300 4500 2    50   Input ~ 0
+MISO
+Text GLabel 7300 4650 0    50   Input ~ 0
+ADC1
+Text GLabel 7300 4850 0    50   Input ~ 0
+ADC0
+Text GLabel 7300 4950 0    50   Input ~ 0
+VCC
+$Comp
+L btn-matrix-rescue:228CMVARGBFR S1
+U 1 1 619BCFEF
+P 7650 1550
+F 0 "S1" H 7650 2115 50  0000 C CNN
+F 1 "228CMVARGBFR" H 7650 2024 50  0000 C CNN
+F 2 "flex-Ambisonic:228CMVARGBFR" H 8700 2050 50  0001 L CNN
+F 3 "https://www.mouser.co.za/datasheet/2/96/228C-1371171.pdf" H 8750 2000 50  0001 L CNN
+F 4 "Tactile Switches Color Red,Green,Blue SMD Gullwing" H 8800 1850 50  0001 L CNN "Description"
+F 5 "7.3" H 8000 1750 50  0001 L CNN "Height"
+F 6 "774-228CMVARGBFR" H 9150 1750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/228CMVARGBFR?qs=gTYE2QTfZfSFpUQ%252Bb6QA4w%3D%3D" H 8000 1550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CTS" H 8000 1450 50  0001 L CNN "Manufacturer_Name"
+F 9 "228CMVARGBFR" H 8000 1350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L btn-matrix-rescue:228CMVARGBFR S2
+U 1 1 619BDDA1
+P 7700 2400
+F 0 "S2" H 7700 2965 50  0000 C CNN
+F 1 "228CMVARGBFR" H 7700 2874 50  0000 C CNN
+F 2 "flex-Ambisonic:228CMVARGBFR" H 8750 2900 50  0001 L CNN
+F 3 "https://www.mouser.co.za/datasheet/2/96/228C-1371171.pdf" H 8800 2850 50  0001 L CNN
+F 4 "Tactile Switches Color Red,Green,Blue SMD Gullwing" H 8850 2700 50  0001 L CNN "Description"
+F 5 "7.3" H 8050 2600 50  0001 L CNN "Height"
+F 6 "774-228CMVARGBFR" H 9200 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/228CMVARGBFR?qs=gTYE2QTfZfSFpUQ%252Bb6QA4w%3D%3D" H 8050 2400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CTS" H 8050 2300 50  0001 L CNN "Manufacturer_Name"
+F 9 "228CMVARGBFR" H 8050 2200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L btn-matrix-rescue:228CMVARGBFR S3
+U 1 1 619BE7BC
+P 8400 3250
+F 0 "S3" H 8400 3815 50  0000 C CNN
+F 1 "228CMVARGBFR" H 8400 3724 50  0000 C CNN
+F 2 "flex-Ambisonic:228CMVARGBFR" H 9450 3750 50  0001 L CNN
+F 3 "https://www.mouser.co.za/datasheet/2/96/228C-1371171.pdf" H 9500 3700 50  0001 L CNN
+F 4 "Tactile Switches Color Red,Green,Blue SMD Gullwing" H 9550 3550 50  0001 L CNN "Description"
+F 5 "7.3" H 8750 3450 50  0001 L CNN "Height"
+F 6 "774-228CMVARGBFR" H 9900 3450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/228CMVARGBFR?qs=gTYE2QTfZfSFpUQ%252Bb6QA4w%3D%3D" H 8750 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CTS" H 8750 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "228CMVARGBFR" H 8750 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L btn-matrix-rescue:228CMVARGBFR S4
+U 1 1 619BEF9B
+P 8400 4000
+F 0 "S4" H 8400 4565 50  0000 C CNN
+F 1 "228CMVARGBFR" H 8400 4474 50  0000 C CNN
+F 2 "flex-Ambisonic:228CMVARGBFR" H 9450 4500 50  0001 L CNN
+F 3 "https://www.mouser.co.za/datasheet/2/96/228C-1371171.pdf" H 9500 4450 50  0001 L CNN
+F 4 "Tactile Switches Color Red,Green,Blue SMD Gullwing" H 9550 4300 50  0001 L CNN "Description"
+F 5 "7.3" H 8750 4200 50  0001 L CNN "Height"
+F 6 "774-228CMVARGBFR" H 9900 4200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/228CMVARGBFR?qs=gTYE2QTfZfSFpUQ%252Bb6QA4w%3D%3D" H 8750 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CTS" H 8750 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "228CMVARGBFR" H 8750 3800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 619C1574
+P 9800 5400
+F 0 "SW1" H 9800 5767 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 9800 5676 50  0000 C CNN
+F 2 "MOUSERfootprintANDsymbol:PEC11R4230KS0024" H 9650 5560 50  0001 C CNN
+F 3 "~" H 9800 5660 50  0001 C CNN
+	1    9800 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 1250 0    50   Input ~ 0
+VCC
+Text GLabel 6650 1550 0    50   Input ~ 0
+PB0
+Text GLabel 7200 2100 0    50   Input ~ 0
+VCC
+Text GLabel 6700 2400 0    50   Input ~ 0
+PB1
+$Comp
+L Device:R R7
+U 1 1 619C887F
+P 8300 1250
+F 0 "R7" V 8350 1050 50  0000 C CNN
+F 1 "165" V 8300 1250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8230 1250 50  0001 C CNN
+F 3 "~" H 8300 1250 50  0001 C CNN
+	1    8300 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 1250 9500 1250
+Wire Wire Line
+	9200 1350 9500 1350
+Wire Wire Line
+	9200 2950 9500 2950
+Wire Wire Line
+	9200 3050 9500 3050
+Wire Wire Line
+	9200 3150 9500 3150
+Wire Wire Line
+	9200 3700 9200 3250
+Wire Wire Line
+	9200 3250 9500 3250
+Wire Wire Line
+	9500 3350 9300 3350
+Wire Wire Line
+	9300 3350 9300 3800
+Wire Wire Line
+	9300 3800 9200 3800
+Wire Wire Line
+	9200 3900 9400 3900
+Wire Wire Line
+	9400 3900 9400 3450
+Wire Wire Line
+	9400 3450 9500 3450
+Text GLabel 10550 1250 2    50   Input ~ 0
+PSHFDATA
+Text GLabel 10550 1350 2    50   Input ~ 0
+PSHFCLK
+Text GLabel 10550 1650 2    50   Input ~ 0
+PSHFUDATE
+Text GLabel 5400 5500 2    50   Input ~ 0
+PSHFDATA
+Text GLabel 5400 5800 2    50   Input ~ 0
+PSHFCLK
+Wire Wire Line
+	10550 1950 10550 2950
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR017
+U 1 1 619FE32A
+P 10900 2050
+F 0 "#PWR017" H 10900 1800 50  0001 C CNN
+F 1 "GND" V 10750 2050 50  0000 R CNN
+F 2 "" H 10900 2050 50  0001 C CNN
+F 3 "" H 10900 2050 50  0001 C CNN
+	1    10900 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 11100 3700 3    50   Input ~ 0
+VCC
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR018
+U 1 1 619FEA03
+P 10900 3750
+F 0 "#PWR018" H 10900 3500 50  0001 C CNN
+F 1 "GND" V 10900 3550 50  0000 R CNN
+F 2 "" H 10900 3750 50  0001 C CNN
+F 3 "" H 10900 3750 50  0001 C CNN
+	1    10900 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 5300 2    50   Input ~ 0
+ADC1
+Text GLabel 4750 5400 2    50   Input ~ 0
+ADC0
+Text GLabel 7900 2950 0    50   Input ~ 0
+VCC
+Text GLabel 7450 3900 0    50   Input ~ 0
+PB3
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR012
+U 1 1 61A00D90
+P 8900 4000
+F 0 "#PWR012" H 8900 3750 50  0001 C CNN
+F 1 "GND" V 8900 3850 50  0000 R CNN
+F 2 "" H 8900 4000 50  0001 C CNN
+F 3 "" H 8900 4000 50  0001 C CNN
+	1    8900 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10550 3350 2    50   Input ~ 0
+PSHFUDATE
+$Comp
+L Device:R R23
+U 1 1 619D1398
+P 11100 3300
+F 0 "R23" H 11100 3500 50  0000 L CNN
+F 1 "10k" V 11100 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11030 3300 50  0001 C CNN
+F 3 "~" H 11100 3300 50  0001 C CNN
+	1    11100 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3150 10750 3150
+Wire Wire Line
+	11100 3700 11100 3450
+Connection ~ 11100 3450
+Wire Wire Line
+	10600 3750 10900 3750
+Wire Wire Line
+	10600 3750 10600 3550
+Wire Wire Line
+	10600 3550 10550 3550
+Wire Wire Line
+	11100 1450 10750 1450
+Text GLabel 11100 2000 3    50   Input ~ 0
+VCC
+Wire Wire Line
+	11100 2000 11100 1750
+$Comp
+L Device:C C8
+U 1 1 619D9601
+P 10900 1900
+F 0 "C8" H 10700 2000 50  0000 L CNN
+F 1 "100nF" H 10650 1800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 10938 1750 50  0001 C CNN
+F 3 "~" H 10900 1900 50  0001 C CNN
+	1    10900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 1750 10900 1750
+Connection ~ 10900 1750
+Wire Wire Line
+	10900 1750 10550 1750
+Connection ~ 10900 2050
+Text GLabel 4750 5900 2    50   Input ~ 0
+PSHFUDATE
+Text GLabel 1750 5100 2    50   Input ~ 0
+VCC
+Text GLabel 5400 5400 2    50   Input ~ 0
+MOSI
+Text GLabel 5400 5900 2    50   Input ~ 0
+SCK
+Text GLabel 1750 5200 2    50   Input ~ 0
+GND
+Text GLabel 4750 4900 2    50   Input ~ 0
+SCL
+Text GLabel 4750 4700 2    50   Input ~ 0
+SDA
+Text GLabel 1300 5500 2    50   Input ~ 0
+SDA
+Text GLabel 1300 5300 2    50   Input ~ 0
+SCL
+Text GLabel 1300 5400 2    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 619DE917
+P 1100 5300
+F 0 "J2" H 1018 4875 50  0000 C CNN
+F 1 "I2C INTERFACE MSTR" H 1018 4966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 1100 5300 50  0001 C CNN
+F 3 "~" H 1100 5300 50  0001 C CNN
+	1    1100 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 619DF5A8
+P 1100 6050
+F 0 "J3" H 1018 5625 50  0000 C CNN
+F 1 "I2C INTERFACE SLAV" H 1018 5716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" H 1100 6050 50  0001 C CNN
+F 3 "~" H 1100 6050 50  0001 C CNN
+	1    1100 6050
+	-1   0    0    1   
+$EndComp
+Text GLabel 1300 5850 2    50   Input ~ 0
+VCC
+Text GLabel 1300 5950 2    50   Input ~ 0
+GND
+Text GLabel 1300 6250 2    50   Input ~ 0
+SDA
+Text GLabel 1300 6150 2    50   Input ~ 0
+GND
+Text GLabel 1300 6050 2    50   Input ~ 0
+SCL
+$Comp
+L Device:C C2
+U 1 1 619E1571
+P 1200 1950
+F 0 "C2" V 1452 1950 50  0000 C CNN
+F 1 "22pF" V 1361 1950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1238 1800 50  0001 C CNN
+F 3 "~" H 1200 1950 50  0001 C CNN
+	1    1200 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1700 1950 2    50   Input ~ 0
+XTAL1
+Text GLabel 1700 2250 2    50   Input ~ 0
+XTAL2
+Text GLabel 4750 6000 2    50   Input ~ 0
+XTAL1
+Text GLabel 4750 6100 2    50   Input ~ 0
+XTAL2
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR015
+U 1 1 619E4DC8
+P 9500 5400
+F 0 "#PWR015" H 9500 5150 50  0001 C CNN
+F 1 "GND" V 9505 5272 50  0000 R CNN
+F 2 "" H 9500 5400 50  0001 C CNN
+F 3 "" H 9500 5400 50  0001 C CNN
+	1    9500 5400
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 5300 0    50   Input ~ 0
+ENCA
+Text GLabel 8650 5500 0    50   Input ~ 0
+ENCB
+Text GLabel 10600 5500 2    50   Input ~ 0
+ENCSW
+Wire Wire Line
+	10300 5500 10100 5500
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR016
+U 1 1 619ED7EF
+P 10150 5300
+F 0 "#PWR016" H 10150 5050 50  0001 C CNN
+F 1 "GND" V 10155 5172 50  0000 R CNN
+F 2 "" H 10150 5300 50  0001 C CNN
+F 3 "" H 10150 5300 50  0001 C CNN
+	1    10150 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 5300 10100 5300
+Text GLabel 4750 6200 2    50   Input ~ 0
+ENCA
+Text GLabel 5350 6300 2    50   Input ~ 0
+ENCB
+Text GLabel 4750 5200 2    50   Input ~ 0
+ENCSW
+Text GLabel 950  1000 0    50   Input ~ 0
+VCC
+$Comp
+L Device:CP C4
+U 1 1 61A0627D
+P 1300 850
+F 0 "C4" H 1350 750 50  0000 L CNN
+F 1 "10uH" H 1000 750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1338 700 50  0001 C CNN
+F 3 "~" H 1300 850 50  0001 C CNN
+	1    1300 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 61A104DD
+P 4000 4150
+F 0 "L1" V 4100 4150 50  0000 C CNN
+F 1 "10uH" V 3950 4100 50  0000 C CNN
+F 2 "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC" H 4000 4150 50  0001 C CNN
+F 3 "~" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 1500 1000 2    50   Input ~ 0
+ATM_VCC
+Text GLabel 3700 4150 0    50   Input ~ 0
+ATM_VCC
+Wire Wire Line
+	4150 4150 4150 4400
+Wire Wire Line
+	3850 4400 3850 4150
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR04
+U 1 1 61A24375
+P 4050 6600
+F 0 "#PWR04" H 4050 6350 50  0001 C CNN
+F 1 "GND" V 3900 6600 50  0000 R CNN
+F 2 "" H 4050 6600 50  0001 C CNN
+F 3 "" H 4050 6600 50  0001 C CNN
+	1    4050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR01
+U 1 1 61A249B9
+P 850 700
+F 0 "#PWR01" H 850 450 50  0001 C CNN
+F 1 "GND" V 700 700 50  0000 R CNN
+F 2 "" H 850 700 50  0001 C CNN
+F 3 "" H 850 700 50  0001 C CNN
+	1    850  700 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  1000 1050 1000
+Connection ~ 1300 1000
+Wire Wire Line
+	1300 1000 1500 1000
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR05
+U 1 1 61A2997E
+P 4150 3850
+F 0 "#PWR05" H 4150 3600 50  0001 C CNN
+F 1 "GND" H 4400 3800 50  0000 R CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	-1   0    0    1   
+$EndComp
+Text GLabel 5400 5600 2    50   Input ~ 0
+PB0
+Text GLabel 4750 4800 2    50   Input ~ 0
+PB1
+Text GLabel 4750 5100 2    50   Input ~ 0
+PB2
+Text GLabel 4750 5000 2    50   Input ~ 0
+PB3
+$Comp
+L Device:R R8
+U 1 1 61A439C7
+P 8300 1350
+F 0 "R8" V 8350 1150 50  0000 C CNN
+F 1 "155" V 8300 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8230 1350 50  0001 C CNN
+F 3 "~" H 8300 1350 50  0001 C CNN
+	1    8300 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 61A43BD5
+P 8300 1450
+F 0 "R9" V 8350 1250 50  0000 C CNN
+F 1 "100" V 8300 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8230 1450 50  0001 C CNN
+F 3 "~" H 8300 1450 50  0001 C CNN
+	1    8300 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 61A43ED1
+P 8350 2100
+F 0 "R10" V 8450 2050 50  0000 C CNN
+F 1 "165" V 8350 2100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8280 2100 50  0001 C CNN
+F 3 "~" H 8350 2100 50  0001 C CNN
+	1    8350 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61A4430E
+P 8350 2200
+F 0 "R11" V 8400 2000 50  0000 C CNN
+F 1 "155" V 8350 2200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8280 2200 50  0001 C CNN
+F 3 "~" H 8350 2200 50  0001 C CNN
+	1    8350 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61A4469F
+P 8350 2300
+F 0 "R12" V 8400 2100 50  0000 C CNN
+F 1 "100" V 8350 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8280 2300 50  0001 C CNN
+F 3 "~" H 8350 2300 50  0001 C CNN
+	1    8350 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 61A45072
+P 9050 2950
+F 0 "R13" V 9100 2750 50  0000 C CNN
+F 1 "165" V 9050 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 2950 50  0001 C CNN
+F 3 "~" H 9050 2950 50  0001 C CNN
+	1    9050 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 61A45476
+P 9050 3700
+F 0 "R16" V 9150 3650 50  0000 C CNN
+F 1 "165" V 9050 3700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 3700 50  0001 C CNN
+F 3 "~" H 9050 3700 50  0001 C CNN
+	1    9050 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 61A458E4
+P 9050 3050
+F 0 "R14" V 9100 2850 50  0000 C CNN
+F 1 "155" V 9050 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 3050 50  0001 C CNN
+F 3 "~" H 9050 3050 50  0001 C CNN
+	1    9050 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 61A45CE9
+P 9050 3800
+F 0 "R17" V 9100 3600 50  0000 C CNN
+F 1 "155" V 9050 3800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 3800 50  0001 C CNN
+F 3 "~" H 9050 3800 50  0001 C CNN
+	1    9050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61A460D3
+P 9050 3150
+F 0 "R15" V 9100 2950 50  0000 C CNN
+F 1 "100" V 9050 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 3150 50  0001 C CNN
+F 3 "~" H 9050 3150 50  0001 C CNN
+	1    9050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 61A46411
+P 9050 3900
+F 0 "R18" V 9100 3700 50  0000 C CNN
+F 1 "100" V 9050 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8980 3900 50  0001 C CNN
+F 3 "~" H 9050 3900 50  0001 C CNN
+	1    9050 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 61A4760B
+P 11100 1600
+F 0 "R22" H 11100 1800 50  0000 L CNN
+F 1 "10k" V 11100 1500 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11030 1600 50  0001 C CNN
+F 3 "~" H 11100 1600 50  0001 C CNN
+	1    11100 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 11100 1750
+Wire Wire Line
+	10550 3450 10900 3450
+$Comp
+L Device:C C9
+U 1 1 61A47C20
+P 10900 3600
+F 0 "C9" H 10700 3700 50  0000 L CNN
+F 1 "100nF" H 10650 3500 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 10938 3450 50  0001 C CNN
+F 3 "~" H 10900 3600 50  0001 C CNN
+	1    10900 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 10900 3450
+Wire Wire Line
+	10900 3450 11100 3450
+$Comp
+L Device:C C5
+U 1 1 61A485D9
+P 4150 4000
+F 0 "C5" H 3950 4100 50  0000 L CNN
+F 1 "100nF" H 4265 3955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 4188 3850 50  0001 C CNN
+F 3 "~" H 4150 4000 50  0001 C CNN
+	1    4150 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 4150
+Wire Wire Line
+	850  700  1050 700 
+$Comp
+L Device:C C1
+U 1 1 61A49085
+P 1050 850
+F 0 "C1" H 850 950 50  0000 L CNN
+F 1 "100nF" H 700 850 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1088 700 50  0001 C CNN
+F 3 "~" H 1050 850 50  0001 C CNN
+	1    1050 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1050 700 
+Wire Wire Line
+	1050 700  1300 700 
+Connection ~ 1050 1000
+Wire Wire Line
+	1050 1000 1300 1000
+$Comp
+L Device:C C3
+U 1 1 61A498F1
+P 1200 2250
+F 0 "C3" V 1350 2250 50  0000 C CNN
+F 1 "22pF" V 1050 2250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1238 2100 50  0001 C CNN
+F 3 "~" H 1200 2250 50  0001 C CNN
+	1    1200 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10600 1850 10600 2050
+Wire Wire Line
+	10600 2050 10900 2050
+Wire Wire Line
+	10600 1850 10550 1850
+Connection ~ 10900 3750
+$Comp
+L Device:C C7
+U 1 1 61A4E6DF
+P 9050 5650
+F 0 "C7" H 8850 5750 50  0000 L CNN
+F 1 "100nF" H 8700 5650 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 9088 5500 50  0001 C CNN
+F 3 "~" H 9050 5650 50  0001 C CNN
+	1    9050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 61A4F6D7
+P 9350 5300
+F 0 "R19" V 9400 5400 50  0000 L CNN
+F 1 "27k" V 9350 5200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 5300 50  0001 C CNN
+F 3 "~" H 9350 5300 50  0001 C CNN
+	1    9350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 61A51538
+P 9350 5500
+F 0 "R20" V 9250 5600 50  0000 L CNN
+F 1 "27k" V 9350 5400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9280 5500 50  0001 C CNN
+F 3 "~" H 9350 5500 50  0001 C CNN
+	1    9350 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 61A52168
+P 9050 5150
+F 0 "C6" H 8850 5250 50  0000 L CNN
+F 1 "100nF" H 8700 5150 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 9088 5000 50  0001 C CNN
+F 3 "~" H 9050 5150 50  0001 C CNN
+	1    9050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5300 9050 5300
+Connection ~ 9050 5300
+Wire Wire Line
+	9050 5300 8650 5300
+Wire Wire Line
+	9200 5500 9050 5500
+Connection ~ 9050 5500
+Wire Wire Line
+	9050 5500 8650 5500
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR014
+U 1 1 61A57072
+P 9050 5800
+F 0 "#PWR014" H 9050 5550 50  0001 C CNN
+F 1 "GND" V 9055 5672 50  0000 R CNN
+F 2 "" H 9050 5800 50  0001 C CNN
+F 3 "" H 9050 5800 50  0001 C CNN
+	1    9050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR013
+U 1 1 61A572BF
+P 9050 5000
+F 0 "#PWR013" H 9050 4750 50  0001 C CNN
+F 1 "GND" V 9055 4872 50  0000 R CNN
+F 2 "" H 9050 5000 50  0001 C CNN
+F 3 "" H 9050 5000 50  0001 C CNN
+	1    9050 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 61A57701
+P 10450 5500
+F 0 "R21" V 10500 5600 50  0000 L CNN
+F 1 "4.7k" V 10450 5400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10380 5500 50  0001 C CNN
+F 3 "~" H 10450 5500 50  0001 C CNN
+	1    10450 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 1550 7150 1550
+Wire Wire Line
+	7000 2400 7200 2400
+Wire Wire Line
+	7700 3250 7900 3250
+Text GLabel 7400 3250 0    50   Input ~ 0
+PB2
+Wire Wire Line
+	7750 3900 7900 3900
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR09
+U 1 1 61A5E04D
+P 7150 1350
+F 0 "#PWR09" H 7150 1100 50  0001 C CNN
+F 1 "GND" V 7150 1200 50  0000 R CNN
+F 2 "" H 7150 1350 50  0001 C CNN
+F 3 "" H 7150 1350 50  0001 C CNN
+	1    7150 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR010
+U 1 1 61A5EADD
+P 8200 2400
+F 0 "#PWR010" H 8200 2150 50  0001 C CNN
+F 1 "GND" V 8200 2250 50  0000 R CNN
+F 2 "" H 8200 2400 50  0001 C CNN
+F 3 "" H 8200 2400 50  0001 C CNN
+	1    8200 2400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7900 3700 0    50   Input ~ 0
+VCC
+$Comp
+L Device:R R3
+U 1 1 61A60619
+P 6800 1550
+F 0 "R3" V 6900 1600 50  0000 L CNN
+F 1 "4.7k" V 6800 1450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6730 1550 50  0001 C CNN
+F 3 "~" H 6800 1550 50  0001 C CNN
+	1    6800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61A61C04
+P 6850 2400
+F 0 "R4" V 6950 2450 50  0000 L CNN
+F 1 "4.7k" V 6850 2300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 2400 50  0001 C CNN
+F 3 "~" H 6850 2400 50  0001 C CNN
+	1    6850 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61A620FD
+P 7550 3250
+F 0 "R5" V 7650 3300 50  0000 L CNN
+F 1 "4.7k" V 7550 3150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 3250 50  0001 C CNN
+F 3 "~" H 7550 3250 50  0001 C CNN
+	1    7550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 61A62A7F
+P 7600 3900
+F 0 "R6" V 7700 3950 50  0000 L CNN
+F 1 "4.7k" V 7600 3800 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7530 3900 50  0001 C CNN
+F 3 "~" H 7600 3900 50  0001 C CNN
+	1    7600 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 61A93421
+P 1550 6850
+F 0 "J4" H 1500 6900 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1150 6800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1550 6850 50  0001 C CNN
+F 3 "~" H 1550 6850 50  0001 C CNN
+	1    1550 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 6850 2    50   Input ~ 0
+VCC
+Text GLabel 1750 6950 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3850 4400 4050 4400
+Wire Wire Line
+	3700 4150 3850 4150
+Connection ~ 3850 4150
+Text GLabel 10550 3050 2    50   Input ~ 0
+PSHFCLK
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 61AA0706
+P 1700 5100
+F 0 "#FLG01" H 1700 5175 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 5273 50  0000 C CNN
+F 2 "" H 1700 5100 50  0001 C CNN
+F 3 "~" H 1700 5100 50  0001 C CNN
+	1    1700 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5100 1700 5100
+Connection ~ 1700 5100
+Wire Wire Line
+	1700 5100 1750 5100
+Wire Wire Line
+	1300 5200 1700 5200
+$Comp
+L power:GND #PWR03
+U 1 1 61AA34AF
+P 1700 5200
+F 0 "#PWR03" H 1700 4950 50  0001 C CNN
+F 1 "GND" H 1705 5027 50  0000 C CNN
+F 2 "" H 1700 5200 50  0001 C CNN
+F 3 "" H 1700 5200 50  0001 C CNN
+	1    1700 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 5200
+Wire Wire Line
+	1700 5200 1750 5200
+$Comp
+L power:GND #PWR02
+U 1 1 61AA3B74
+P 1050 2100
+F 0 "#PWR02" H 1050 1850 50  0001 C CNN
+F 1 "GND" V 1055 1972 50  0000 R CNN
+F 2 "" H 1050 2100 50  0001 C CNN
+F 3 "" H 1050 2100 50  0001 C CNN
+	1    1050 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 1950 1050 2100
+Connection ~ 1050 2100
+Wire Wire Line
+	1050 2100 1050 2250
+$Comp
+L power:GND #PWR011
+U 1 1 61AA7146
+P 7900 3050
+F 0 "#PWR011" H 7900 2800 50  0001 C CNN
+F 1 "GND" V 7905 2922 50  0000 R CNN
+F 2 "" H 7900 3050 50  0001 C CNN
+F 3 "" H 7900 3050 50  0001 C CNN
+	1    7900 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 61A878CF
+P 1350 2100
+F 0 "Y1" V 1304 2231 50  0000 L CNN
+F 1 "Crystal" V 1395 2231 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 1350 2100 50  0001 C CNN
+F 3 "~" H 1350 2100 50  0001 C CNN
+	1    1350 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1950 1700 1950
+Connection ~ 1350 1950
+Wire Wire Line
+	1350 2250 1700 2250
+Connection ~ 1350 2250
+Text GLabel 1750 7600 2    50   Input ~ 0
+GND
+Text GLabel 1750 7700 2    50   Input ~ 0
+VCC
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 61A92F80
+P 1550 7700
+F 0 "J5" H 1600 7550 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1950 7650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 1550 7700 50  0001 C CNN
+F 3 "~" H 1550 7700 50  0001 C CNN
+	1    1550 7700
+	-1   0    0    1   
+$EndComp
+$Comp
+L flex_AmbisonicLib:ATtiny861V-10SU U1
+U 1 1 61AB64FF
+P 4050 5500
+F 0 "U1" H 3420 5546 50  0000 R CNN
+F 1 "ATtiny861V-10SU" H 3420 5455 50  0000 R CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4050 5500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf" H 4050 5500 50  0001 C CNN
+	1    4050 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 5700 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	5400 5900 5300 5900
+Wire Wire Line
+	5300 5900 5300 5800
+Connection ~ 5300 5800
+Wire Wire Line
+	5300 5800 5400 5800
+Wire Wire Line
+	4750 5800 5300 5800
+Wire Wire Line
+	5400 5600 5300 5600
+Wire Wire Line
+	5300 5600 5300 5700
+Wire Wire Line
+	5300 5700 4750 5700
+Connection ~ 5300 5700
+Wire Wire Line
+	5300 5700 5400 5700
+Wire Wire Line
+	5200 5600 5200 5500
+Wire Wire Line
+	5200 5500 5400 5500
+Wire Wire Line
+	5200 5500 5200 5400
+Wire Wire Line
+	5200 5400 5400 5400
+Connection ~ 5200 5500
+Wire Wire Line
+	4750 5600 5200 5600
+Wire Wire Line
+	10750 1450 10750 1550
+Wire Wire Line
+	10750 1550 10550 1550
+Connection ~ 10750 1450
+Wire Wire Line
+	10750 1450 10550 1450
+Wire Wire Line
+	10750 3150 10750 3250
+Wire Wire Line
+	10750 3250 10550 3250
+Connection ~ 10750 3150
+Wire Wire Line
+	10750 3150 11100 3150
+$Comp
+L flex_AmbisonicLib:TPIC6C595-SOIC U2
+U 1 1 61B13621
+P 10050 1200
+F 0 "U2" H 10025 1415 50  0000 C CNN
+F 1 "TPIC6C595-SOIC" H 10025 1324 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 10050 1200 50  0001 C CNN
+F 3 "https://www.mouser.ph/datasheet/2/389/cd00020664-1796042.pdf" H 10050 1200 50  0001 C CNN
+	1    10050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L flex_AmbisonicLib:TPIC6C595-SOIC U3
+U 1 1 61B1432C
+P 10050 2900
+F 0 "U3" H 10025 3115 50  0000 C CNN
+F 1 "TPIC6C595-SOIC" H 10025 3024 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 10050 2900 50  0001 C CNN
+F 3 "https://www.mouser.ph/datasheet/2/389/cd00020664-1796042.pdf" H 10050 2900 50  0001 C CNN
+	1    10050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J6
+U 1 1 61AD898F
+P 7500 4750
+F 0 "J6" H 7528 4726 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 7528 4635 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 7500 4750 50  0001 C CNN
+F 3 "~" H 7500 4750 50  0001 C CNN
+	1    7500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6600 4050 6600
+Connection ~ 4050 6600
+Text GLabel 1300 4300 2    50   Input ~ 0
+RESET
+$Comp
+L Device:R R1
+U 1 1 61AFB460
+P 5200 6300
+F 0 "R1" V 5407 6300 50  0000 C CNN
+F 1 "0" V 5316 6300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5130 6300 50  0001 C CNN
+F 3 "~" H 5200 6300 50  0001 C CNN
+	1    5200 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 6300 5050 6300
+Text GLabel 4900 6300 3    50   Input ~ 0
+RESET
+Text GLabel 1300 4400 2    50   Input ~ 0
+MOSI
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR0101
+U 1 1 61B6F319
+P 7300 4750
+F 0 "#PWR0101" H 7300 4500 50  0001 C CNN
+F 1 "GND" V 7300 4600 50  0000 R CNN
+F 2 "" H 7300 4750 50  0001 C CNN
+F 3 "" H 7300 4750 50  0001 C CNN
+	1    7300 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 1450 9500 1450
+Text GLabel 8450 1450 2    50   Input ~ 0
+S1_b
+Text GLabel 9200 1250 0    50   Input ~ 0
+S1_b
+Text GLabel 8450 1350 2    50   Input ~ 0
+S1_G
+Text GLabel 9200 1350 0    50   Input ~ 0
+S1_G
+Text GLabel 8450 1250 2    50   Input ~ 0
+S1_R
+Text GLabel 9200 1450 0    50   Input ~ 0
+S1_R
+Wire Wire Line
+	8500 2200 8950 2200
+Text GLabel 8500 2100 2    50   Input ~ 0
+S2_R
+Wire Wire Line
+	8950 1650 8950 2200
+Wire Wire Line
+	8950 1650 9500 1650
+Text GLabel 9500 1850 0    50   Input ~ 0
+S2_R
+Wire Wire Line
+	8500 2300 9200 2300
+Wire Wire Line
+	9200 2300 9200 1950
+Wire Wire Line
+	9200 1950 9500 1950
+NoConn ~ 9500 1750
+NoConn ~ 9500 1550
+NoConn ~ 9500 3550
+NoConn ~ 9500 3650
+NoConn ~ 7200 2300
+NoConn ~ 7150 1450
+NoConn ~ 8100 1550
+NoConn ~ 7900 3150
+NoConn ~ 8900 3250
+NoConn ~ 7900 3800
+NoConn ~ 7900 4000
+NoConn ~ 7200 2200
+$Comp
+L controller_motion_pcb-rescue:GND-power #PWR0102
+U 1 1 61AFCF98
+P 7300 4550
+F 0 "#PWR0102" H 7300 4300 50  0001 C CNN
+F 1 "GND" V 7300 4400 50  0000 R CNN
+F 2 "" H 7300 4550 50  0001 C CNN
+F 3 "" H 7300 4550 50  0001 C CNN
+	1    7300 4550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
