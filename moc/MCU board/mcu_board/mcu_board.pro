@@ -1,4 +1,4 @@
-update=12/10/21 15:17:51
+update=12/11/21 22:35:57
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=controller_motion_pcb.net
+LastNetListRead=mcu_board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
