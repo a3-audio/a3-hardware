@@ -816,7 +816,7 @@ F 3 "" H 7300 4550 50  0001 C CNN
 $EndComp
 Text GLabel 2750 4550 0    50   Input ~ 0
 ADC0
-Text GLabel 2750 4750 0    50   Input ~ 0
+Text GLabel 2750 4350 0    50   Input ~ 0
 ADC1
 Text GLabel 2750 4150 0    50   Input ~ 0
 ENCSW
@@ -824,7 +824,7 @@ Text GLabel 3650 4750 2    50   Input ~ 0
 PB2
 Text GLabel 3650 4850 2    50   Input ~ 0
 PB3
-Text GLabel 2750 4350 0    50   Input ~ 0
+Text GLabel 2750 4650 0    50   Input ~ 0
 PB1
 Text GLabel 3650 4150 2    50   Input ~ 0
 GND
@@ -832,11 +832,11 @@ Text GLabel 3650 4550 2    50   Input ~ 0
 GND
 Text GLabel 3650 4650 2    50   Input ~ 0
 VCC
-Text GLabel 2750 4650 0    50   Input ~ 0
+Text GLabel 2750 4450 0    50   Input ~ 0
 GND
 Text GLabel 2750 4850 0    50   Input ~ 0
 GND
-Text GLabel 2750 4450 0    50   Input ~ 0
+Text GLabel 2750 4750 0    50   Input ~ 0
 VCC
 $Comp
 L Connector:Conn_01x09_Male J1
