@@ -84,18 +84,6 @@
           "size_x": 1694,
           "size_y": 1017
         }
-      },
-      {
-        "name": "mcu_board.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1696,
-          "size_y": 1026
-        }
       }
     ]
   }
