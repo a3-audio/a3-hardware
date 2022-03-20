@@ -35,7 +35,7 @@
         "pads": {
           "drill": 0.5,
           "height": 1.7,
-          "width": 2.0
+          "width": 1.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|147800000|78222600|df76c674-9827-4ca9-bd60-a8a3d2917ee5|930cb292-ba7c-405f-a259-1030607ca7ca",
+        "clearance|147800000|80222600|df76c674-9827-4ca9-bd60-a8a3d2917ee5|930cb292-ba7c-405f-a259-1030607ca7ca"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -132,7 +135,7 @@
         },
         {
           "diameter": 1.65,
-          "drill": 0.8
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false,

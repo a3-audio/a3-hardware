@@ -1,4 +1,4 @@
-19805699631965049
+19823779440205458
 .Ambisonic
 228CMVARGBFR
 
@@ -41,6 +41,20 @@ USB-C
 0
 6
 6
+.Ambisonic
+attiny1626
+20-Pin SOIC
+Integrated Circuit
+0
+20
+20
+.Ambisonic
+thermal_via
+
+
+0
+1
+1
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84517,3 +84531,66 @@ varistor SIOV
 0
 2
 2
+attiny1626
+SOIC127P1030X265-20N
+20-Pin SOIC
+Integrated Circuit
+0
+20
+20
+libs
+228CMVARGBFR
+
+
+0
+8
+8
+libs
+Encoder PEC11R-4230K-S0024
+
+
+0
+5
+5
+libs
+Header-01x09-p2.54-selfsolder
+
+
+0
+9
+9
+libs
+ICSP_Header_P2.54_SelfSolder
+
+
+0
+6
+6
+libs
+Molex Mini lock 1x5
+
+
+0
+5
+5
+libs
+USB-C
+
+
+0
+6
+6
+libs
+attiny1626
+20-Pin SOIC
+Integrated Circuit
+0
+20
+20
+libs
+thermal_via
+
+
+0
+1
+1

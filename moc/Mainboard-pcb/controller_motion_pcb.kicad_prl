@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -74,7 +74,7 @@
   "project": {
     "files": [
       {
-        "name": "controller_motion_pcb.kicad_pcb",
+        "name": "controller_motion_pcb.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
