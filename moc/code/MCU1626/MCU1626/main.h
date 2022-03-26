@@ -8,16 +8,16 @@
 
 #ifndef MAIN_H_
 #define MAIN_H_
-#include "hardware.h"
-#include <stdlib.h>
-#include "bitoperation.h"
-#include "ledandcolor.h"
-#include "init.h"
-#include <util/delay.h>
-#include <avr/io.h>
-#include <avr/cpufunc.h> /* Required header file */
-#include <avr/interrupt.h>
-#include "debug.h"
+#include "src/hardware.h"
+#include "src/bitoperation.h"
+#include "src/ledandcolor.h"
+#include "src/debug.h"
+#include "src/button.h"
+#include "src/encoder.h"
+#include "src/timer.h"
+#include "src/adc.h"
+#include "src/i2c.h"
+
 
 #define TIME_ABOVE(colorval,colortime,bitpos)	((!!(colorval>colortime))<<bitpos)
 
@@ -56,7 +56,7 @@
 
 
 
-void led_shift_send(uint16_t data);
+void led_shiftSend(uint16_t data);
 
 int8_t encode_read( uint8_t step );
  //converts an angle and a intensity value to RGB

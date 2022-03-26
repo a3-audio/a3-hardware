@@ -120,31 +120,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="adc.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="adc.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="bitoperation.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="ledandcolor.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="ledandcolor.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="debug.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="hardware.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="init.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="init.h">
+    <Compile Include="includes.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
@@ -153,6 +129,54 @@
     <Compile Include="main.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="src\adc.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\adc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\bitoperation.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\button.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\button.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\debug.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\encoder.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\encoder.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\hardware.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\ledandcolor.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\ledandcolor.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\i2c.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\i2c.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\timer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\timer.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

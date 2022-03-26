@@ -1,8 +1,7 @@
-main.d main.o: .././main.c .././main.h .././src/hardware.h \
- .././src/../includes.h \
+src/spi.d src/spi.o: ../src/spi.c ../src/spi.h ../src/hardware.h \
+ ../src/../includes.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
@@ -20,21 +19,17 @@ main.d main.o: .././main.c .././main.h .././src/hardware.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\cpufunc.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
- .././src/bitoperation.h .././src/hardware.h .././src/bitoperation.h \
- .././src/ledandcolor.h .././src/debug.h .././src/button.h \
- .././src/encoder.h .././src/timer.h .././src/adc.h .././src/i2c.h
+ ../src/bitoperation.h
 
-.././main.h:
+../src/spi.h:
 
-.././src/hardware.h:
+../src/hardware.h:
 
-.././src/../includes.h:
+../src/../includes.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
-
-c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
 
@@ -70,22 +65,4 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
-.././src/bitoperation.h:
-
-.././src/hardware.h:
-
-.././src/bitoperation.h:
-
-.././src/ledandcolor.h:
-
-.././src/debug.h:
-
-.././src/button.h:
-
-.././src/encoder.h:
-
-.././src/timer.h:
-
-.././src/adc.h:
-
-.././src/i2c.h:
+../src/bitoperation.h:
