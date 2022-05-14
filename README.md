@@ -31,6 +31,6 @@ Code of conduct
 
 - Care the docs
 - Keep the code clean
-- We use centralized workflow:
+- We use [centralized workflow](https://www.git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows):
   - Don't edit the mainbranch. Use pull requests instead (if nobody reacts we're probably still mixing - find us on stage)
   - If you need an own different setup, fork this repo
