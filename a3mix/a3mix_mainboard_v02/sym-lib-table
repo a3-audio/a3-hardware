@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "mixer.pcb")(type "Legacy")(uri "${KIPRJMOD}/lib_sch/74xx.lib")(options "")(descr ""))
+  (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/lib_sch/teensy.lib")(options "")(descr ""))
+  (lib (name "power")(type "Legacy")(uri "${KIPRJMOD}/lib_sch/power.lib")(options "")(descr ""))
+  (lib (name "mixer.pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/mixer.pcb-rescue.lib")(options "")(descr ""))
+)
