@@ -10,6 +10,8 @@
     (date "2021-08-04")
     (rev "v.0.1")
     (company "A3 Audio UG (haftungsbeschränkt)")
+    (comment 3 "https://github.com/a3-audio/a3-hardware")
+    (comment 4 "Licensed under CERN-OHL-S v2")
   )
 
   (layers
@@ -1724,6 +1726,9 @@
   (gr_line (start 191.5 37) (end 191.5 83) (layer "Edge.Cuts") (width 0.05) (tstamp dc1d84c8-33da-4489-be8e-2a1de3001779))
   (gr_text "AAA Motion_Ctr-0.001" (at 134 59.5 15) (layer "B.SilkS") (tstamp 386ad9e3-71fa-420f-8722-88548b024fc5)
     (effects (font (size 7 7) (thickness 0.6)) (justify mirror))
+  )
+  (gr_text "https://github.com/a3-audio/a3-hardware\n\nA³ Motion - Mainboard v0.1\nLicensed under CERN-OHL-S v2\n" (at 80.345001 58.965001) (layer "F.SilkS") (tstamp c56dc148-af5e-49f8-9fde-91413566934d)
+    (effects (font (size 1 1) (thickness 0.1)) (justify left))
   )
 
   (segment (start 168.38 47.88) (end 169.76 46.5) (width 0.25) (layer "B.Cu") (net 1) (tstamp 212bf70c-2324-47d9-8700-59771063baeb))
