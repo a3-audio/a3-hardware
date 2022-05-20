@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: A3 Audio - Hardware
+Upstream-Contact: A3 Audio <contact@a3-audio.com>
+Source: https://github.com/a3-audio/a3-hardware
+
+Files: a3motion/*
+Copyright: 2022 A3 Audio <contact@a3-audio.com>
+           2017 John Doe <john@example.com>
+License: CERN-OHL-S-2.0
+
+Files: a3mix/*
+Copyright: 2022 A3 Audio <contact@a3-audio.com>
+           2017 John Doe <john@example.com>
+License: CERN-OHL-S-2.0

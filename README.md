@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2017 Free Software Foundation Europe e.V. <https://fsfe.org>
+#
+# SPDX-License-Identifier: CERN-OHL-S-2.0
+
 Copyright A3 Audio UG (haftungsbeschränkt) 2022.
 
 This source describes Open Hardware and is licensed under the
@@ -14,5 +18,8 @@ Source location: https://github.com/a3-audio/a3-hardware
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on
 this source, You must where practicable maintain the Source Location
-visible on the external case of the A³ Motion, the A³ Mix or other 
-products you make using this source.
+visible on the external case of all products you
+make using this source.
+
+You may use "reuse" to check license validation:
+https://reuse.readthedocs.io/en/stable/readme.html
