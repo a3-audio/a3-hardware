@@ -11,7 +11,7 @@
     (rev "v0.2")
     (company "A3 Audio UG (haftungsbeschränkt)")
     (comment 3 "https://github.com/a3-audio/a3-hardware")
-    (comment 4 "Licensed under CERN-OHL-S v2")
+    (comment 4 "Licensed under CERN-OHL-S v2 or later")
   )
 
   (layers
@@ -11744,7 +11744,7 @@
   (gr_text "+" (at 119.38 259.08) (layer "F.SilkS") (tstamp e4570e31-f9dd-4e13-a8d5-42733b999b4d)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "https://github.com/a3-audio/a3-hardware\n\nA³ Mix - Mainboard v0.2\nLicensed under CERN-OHL-S v2\n" (at 191.785847 273.627738 90) (layer "F.SilkS") (tstamp e7c9f62a-790c-428c-8536-36156cd25e01)
+  (gr_text "https://github.com/a3-audio/a3-hardware\n\nA³ Mix - Mainboard v0.2\nLicensed under CERN-OHL-S v2 or later\n" (at 191.785847 273.627738 90) (layer "F.SilkS") (tstamp e7c9f62a-790c-428c-8536-36156cd25e01)
     (effects (font (size 1 1) (thickness 0.1)) (justify left))
   )
   (gr_text "+" (at 39.37 137.16) (layer "F.SilkS") (tstamp ed281390-78e7-4141-803e-8c3c15908eac)

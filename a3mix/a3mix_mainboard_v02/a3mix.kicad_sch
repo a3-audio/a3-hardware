@@ -10,7 +10,7 @@
     (rev "v.0.2")
     (company "A3 Audio UG (haftungsbeschränkt)")
     (comment 3 "https://github.com/a3-audio/a3-hardware")
-    (comment 4 "Licensed under CERN-OHL-S v2")
+    (comment 4 "Licensed under CERN-OHL-S v2 or later")
   )
 
   (lib_symbols
